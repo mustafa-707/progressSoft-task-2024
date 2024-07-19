@@ -18,7 +18,6 @@ class SubScreenAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: Colors.transparent,
-      // toolbarHeight: pAppBarHeight,
       elevation: 0,
       centerTitle: true,
       title: Text(
